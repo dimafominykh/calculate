@@ -44,7 +44,7 @@ def sqr3(a):
 @app.route('/sqr4/<int:a>')
 def sqr4(a):
     res = a**4
-    return str(res)
+    return str(res) # gfv
 
 
 if __name__ == "__main__":
