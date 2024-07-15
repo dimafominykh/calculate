@@ -35,7 +35,7 @@ def sqr(a):
     res = a**2
     return str(res)
 
-@app.route('/sqr/<int:a>')
+@app.route('/sqr3/<int:a>')
 def sqr3(a):
     res = a**3
     return str(res)
