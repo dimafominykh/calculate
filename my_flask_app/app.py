@@ -35,6 +35,11 @@ def sqr(a):
     res = a**2
     return str(res)
 
+@app.route('/sqr/<int:a>')
+def sqr3(a):
+    res = a**3
+    return str(res)
+
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=8888)
