@@ -44,7 +44,18 @@ def sqr3(a):
 @app.route('/sqr4/<int:a>')
 def sqr4(a):
     res = a**4
-    return str(res) # gfv
+    return str(res)
+#Finding:     "export BUNDLE_ENTERPRISE__CONTRIBSYS__COM=cafebabe:deadbeef",
+#Secret:      cafebabe:deadbeef
+#RuleID:      sidekiq-secret
+#Entropy:     2.609850
+#File:        cmd/generate/config/rules/sidekiq.go
+#Line:        23
+#Commit:      cd5226711335c68be1e720b318b7bc3135a30eb2
+#Author:      John
+#Email:       john@users.noreply.github.com
+#Date:        2022-08-03T12:31:40Z
+#Fingerprint: cd5226711335c68be1e720b318b7bc3135a30eb2:cmd/generate/config/rules/sidekiq.go:sidekiq-secret:23
 
 
 if __name__ == "__main__":
