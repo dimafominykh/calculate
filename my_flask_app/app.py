@@ -46,7 +46,7 @@ def sqr4(a):
     res = a**4
     return str(res)
 
-#Fingerprint: cd5226711335c68be1e720b318b7bc3135a30eb2:cmd/generate/config/rules/sidekiq.go:sidekiq-secret:23
+
 
 
 if __name__ == "__main__":
