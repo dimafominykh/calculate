@@ -52,7 +52,7 @@ def sqr4(a):
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=8888)
 
-   # Email: fominykh @ bk.ru
-    #Date: 2024 - 07 - 16
-   # Fingerprint: 36
-    #d69b1c0a6745bbeec36f1cc6070d2f490a1044: my_flask_app / app.py:sidekiq - secret: 48
+#Author:      John
+#Email:       john@users.noreply.github.com
+#Date:        2022-08-03T12:31:40Z
+#Fingerprint: cd5226711335c68be1e720b318b7bc3135a30eb2:cmd/generate/config/rules/sidekiq.go:sidekiq-secret:23
