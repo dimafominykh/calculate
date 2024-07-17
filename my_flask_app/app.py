@@ -57,3 +57,5 @@ if __name__ == "__main__":
 #pass - qwerty123
 # name - Dima
 #56.857043, 60.598431
+
+#Finding:     "export BUNDLE_ENTERPRISE__CONTRIBSYS__COM=cafebabe:deadbeef"
