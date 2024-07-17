@@ -9,6 +9,9 @@ def sum(a, b):
     return str(res)
 
 
+
+
+
 @app.route('/min/<int:a>/<int:b>')
 def min(a, b):
     res = a-b
@@ -49,3 +52,8 @@ def sqr4(a):
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=8888)
+
+
+#pass - qwerty123
+# name - Dima
+#56.857043, 60.598431
