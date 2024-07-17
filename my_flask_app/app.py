@@ -40,7 +40,7 @@ def sqr3(a):
     res = a**3
     return str(res)
 
-#git@github.com:dimafominykh/calculate.git
+
 @app.route('/sqr4/<int:a>')
 def sqr4(a):
     res = a**4
