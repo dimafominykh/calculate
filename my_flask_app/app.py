@@ -54,11 +54,5 @@ if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=8888)
 
 
-#password = "sd-hsbWDfeWy-m1200"
 
-#token = hvuxTUV87QT2O-WKX-W
-''' SSH = git@github.com:dimafominykh/calculate.git 
-API key: kcdnCDNcmJScnJSNCoibuyfthtwgeig13r1ukyfb
-Apple ID: qvadrt@icloud.com
-'''
 
