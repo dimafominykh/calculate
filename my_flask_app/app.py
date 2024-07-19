@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask
 
 app = Flask(__name__)
 
@@ -7,9 +7,6 @@ app = Flask(__name__)
 def sum(a, b):
     res = a+b
     return str(res)
-
-
-
 
 
 @app.route('/min/<int:a>/<int:b>')
@@ -37,6 +34,7 @@ def dell(a, b):
 def sqr(a):
     res = a**2
     return str(res)
+
 
 @app.route('/sqr3/<int:a>')
 def sqr3(a):
