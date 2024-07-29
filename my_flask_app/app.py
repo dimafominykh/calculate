@@ -58,7 +58,7 @@ def f():
     my_file = open(str(request.values['a'])+'/'+str(request.values['b']), "w+")
     my_file.write(str(request.values['c']))
     my_file.close()
-    return str(11)
+    return str(1)
 
 
 
