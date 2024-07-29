@@ -1,4 +1,5 @@
 from flask import Flask
+import os
 
 app = Flask(__name__)
 
@@ -42,10 +43,16 @@ def sqr3(a):
     return str(res)
 
 
-@app.route('/sqr4/<int:a>')
+@app.route('/sqr4/a')
 def sqr4(a):
     res = a**4
     return str(res)
+
+@app.route('/new/a')
+def new(a):
+    path = a
+    os.mkdir(path)
+    return 1
 
 
 if __name__ == "__main__":
