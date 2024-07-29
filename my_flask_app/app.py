@@ -1,4 +1,4 @@
-from flask import Flask, send_from_directory
+from flask import Flask, send_from_directory,request
 import os
 
 app = Flask(__name__)
@@ -48,16 +48,22 @@ def sqr4(a):
     res = a**4
     return str(res)
 
-@app.route('/f/<a>')
-def f(a):
-    os.mkdir(a)
+@app.route('/f')
+def f():
+    for i in request.values:
+        print(request.values[i])
+
+
+    os.mkdir(request.values['a'])
+    my_file = open(str(request.values['a'])+'/'+str(request.values['b']), "w+")
+    my_file.write(str(request.values['c']))
+    my_file.close()
     return str(1)
 
 
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=8888)
-
 
 
 
